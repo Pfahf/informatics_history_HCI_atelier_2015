@@ -4,4 +4,4 @@ A website about the history of informatics developed by 1st year informatics stu
 # Usage
 The project uses GitHub Pages (https://pages.github.com/#project-site). The default and main branch is gh-pages.
 
-The website url is: http://vincenzoferme.github.io/informatic_history_HCI_atelier_2015/
+The website url is: http://vincenzoferme.github.io/informatics_history_HCI_atelier_2015/
