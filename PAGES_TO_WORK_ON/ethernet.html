@@ -26,23 +26,23 @@
 				<h1>Ethernet</h1>
 				<h2>History</h2>
 				<p>Ethernet is a computer networking technology used in Local Area Networks and
-				created in 1973 by Robert Metcalfe while He was a researcher at the <a href="xerox_parc.html">Xerox Corporation's Palo Alto Research Center(Xerox PARC)</a>.
-				The idea for Ethernet was largely inspirated by <a href="alohanet.html">ALOHAnet</a>, another storically important computer network, that Metcalfe had studied as part of his PhD dissertation. He developed both the physical method for connecting the devices and the standards for monitoring the communication.
+				created in 1973 by Robert Metcalfe while working as a researcher at the <a href="xerox_parc.html">Xerox Corporation's Palo Alto Research Center(Xerox PARC)</a>.
+				The idea for Ethernet was largely inspirated by <a href="alohanet.html">ALOHAnet</a>, another historically important computer network, that Metcalfe had studied as part of his PhD dissertation. He developed both the physical method for connecting the devices and the standards for monitoring the communication.
 				</p>
 
 				<p>
-				In 1979 Metcalfe co-founded the 3Com Corporation with the intention of commercialize Ethernet. 3Com started by building Ethernet circuit board for minicomputer but later they built an Ethernet card mostly known as NIC (Network Interface Card).
-				He also succeed convincing Intel, Xerox and DEC working together and promote Ethernet as a standard for LAN networks. <br> <br>
+				In 1979 Metcalfe co-founded the 3Com Corporation with the intention of commercializing Ethernet. 3Com started by building Ethernet circuit boards for minicomputers, but later it was developed into an Ethernet card, mostly known as NIC (Network Interface Card).
+				He also succeeded convincing Intel, Xerox and DEC to work together and promote Ethernet as a standard for LAN networks. <br> <br>
 				On September 30, 1980 the three companies published "The Ethernet, A Local Area Network. Data Link Layer and Physical Layer Specifications" creating the earliest Ethernet standard. Version 2 was released on November 1992.
 				</p>
 
 				<p>
-				Ethernet battled against IBM's token ring and General Motor's token bus , two differents LAN standards.
-				At the end of 80s 3Com shifted from coax cables to twisted pair cables and finally won the battle becaming the dominant local area network technology.
+				Ethernet battled against IBM's token ring and General Motor's token bus, two different LAN standards.
+				At the end of the 1980s, 3Com shifted from coax cables to twisted pair cables and finally won the battle becoming the dominant local area network technology.
 				</p>
 
 				<p style="padding-bottom: 75px;">
-				3Com has been bought by Hewlett-Packard on April 12, 2010. Since the aquisition 3Com has been fully absorb and no longer exists as a separate society.
+				3Com was acquired by Hewlett-Packard on April 12, 2010. Since the acquisition, 3Com has been fully absorbed and no longer exists as a separate company.
 				</p>
 
 				<h2>Technology</h2>
@@ -52,7 +52,7 @@
 				</a>
 
 				<p>
-					The architecture of the original Ethernet used a bus topology where each computer is connected to a single cable. This implementation turn out in a broadcasting comunication, where all the messages are received by all the computers connected to the network. 
+					The architecture of the original Ethernet used a bus topology where each computer is connected to a single cable. This implementation turned out in a broadcasting comunication, where all the messages are received by all the computers connected to the network. 
 				</p>
 
 				<p>
@@ -60,11 +60,11 @@
 				</p>
 
 				<p>
-					The collision issue is solved by a scheme known as Carrier Sense Multiple Access with Collision Detection (CSMA/CD) which govern the way the computers shared the channel. First of all each station ensure that the line is free before starting to send data. If a collision anyway occure both the stations detect it and stop transmitting data, then they wait a random amount of time and after that try to transmit data again. The collisions issue could start being a problem for high traffic networks.
+					The collision issue is solved by a scheme known as Carrier Sense Multiple Access with Collision Detection (CSMA/CD) which govern the way the computers shared the channel. First of all each station ensures that the line is free before starting to send data. If a collision occurs, both stations detect it and stop transmitting data, then they wait a random amount of time and try to transmit the data again. The collisions issue could start being a problem for high traffic networks.
 				</p>
 
 				<p>
-					The files are not delivered completeley in one step but split in several sections called frames. Each frame follow a specific format shown in the figure below. The file contains both the origin and destination address. Since each station receive all the frames delivered in the network it will just check the destination address of them, keep the right frames and get rid of the others. This behaviour could be an issue since a station set in a promiscuous way could just sniff all the frames, even that frames which are not suppose to be delivered to it.
+					The files are not delivered completeley in one step but split into several sections called frames. Each frame follows a specific format shown in the figure below. The file contains both the origin and destination address. Since each station receives all the frames delivered in the network, it will just check the destination address of them, keep the right frames and get rid of the others. This behaviour could be an issue since a station set in a promiscuous way could just sniff all the frames, even those frames which are not supposed to be delivered to it.
 				</p>
 				<a href="#2">
 				<div class="imgRightWithCaption" style="width: auto;padding-left: 60px;padding-right: 70px;"><img class="captionedImg" src="images/ethernet_frame.png" alt="Ethernet Frame"></div>
@@ -76,13 +76,13 @@
 					<div class="imgRightWithCaption" style="width: 300px;"><img class="captionedImg" src="images/switch.jpg" alt="Switch network"></div>
 					</a>
 					<p>
-						The introducing of hubs and switches was a giant leap for Ethernet networks. A switch is a computer network device that connect stations together using a form of packet switching to deliver datas at the right destination. This mean that every station in connected to the switch only. As soon as the switch receive a frame it analyze the destination address and pass the frame on to the channel connected to the right device. An hub is just a simpler version of the switch where every frame is redirect to all the lines instead of only the right one. The combination of switches and full-duplex connections eliminate the problem of collisions since each Ethernet section is now isolated. 
+						The introduction of hubs and switches was a giant leap forward for Ethernet networks. A switch is a computer network device that connects stations together using a form of packet switching to deliver data to the right destination. This means that every station is only connected to the switch. As soon as the switch receives a frame it analyzes the destination address and passes the frame on to the channel connected to the right device. A hub is just a simpler version of the switch where every frame is redirected to all the lines instead of only the right one. The combination of switches and full-duplex connections eliminates the problem of collisions, since each Ethernet section is now isolated. 
 					</p>
 				</div>
 
 				<h2>Evolution of Ethernet</h2>
 				<p>
-					During the years the physical layer components such as cable, connectors ecc evolved improving the speed and reliability of Ethernet. <br>
+					During the years the physical layer components such as cables, connectors, etc. evolved, therefore improving the speed and reliability of Ethernet connections. <br>
 					An Ethernet controller runs at the speed of the slowest connected device, which is helpful when mixing old and new technology on the same network. <br>
 				</p>
 				<table border="1" >
@@ -94,17 +94,17 @@
 					<tr>
 						<td>Experimental Ethernet</td>
 						<td>No Standard</td>
-						<td>The original Ethernet implementation was 2.94 Mbit/s fast and used a coaxial cable.</td>
+						<td>The original Ethernet implementation had a bandwidth of 2.94 Mbit/s and used a coaxial cable.</td>
 					</tr>
 					<tr>
 						<td>Thick Ethernet</td>
 						<td>10BASE5</td>
-						<td>The first standard Ethernet, it used an AMP 228752-1 connector also known as "vampire tap" that literally tap a connection by drilling into the cable. It had a 10 MBit/s speed and used a bus topology with collision detection.</td>
+						<td>The first standard Ethernet used an AMP 228752-1 connector also known as a "vampire tap" that literally tapped a connection by drilling into the cable. It had a 10 MBit/s speed and used a bus topology with collision detection.</td>
 					</tr>
 					<tr>
 						<td>Fast Ethernet</td>
 						<td>100BASE-T</td>
-						<td>A term that include all the three standards for 100 Mbit/s over twisted pair cable. All of these use a star topology.</td>
+						<td>A term that includes all the three standards for 100 Mbit/s over a twisted pair cable. All of these use a star topology.</td>
 					</tr>
 					<tr>
 						<td>Gigabit Ethernet</td>
@@ -114,12 +114,12 @@
 					<tr>
 						<td>10Gbits Ethernet</td>
 						<td>10GBASE-SR</td>
-						<td>Released in 2002 it's ten times faster the the predecessor, most of the versions use fiber optic cable.</td>
+						<td>Released in 2002 it's ten times faster than the predecessor, most of the versions use fiber optic cable.</td>
 					</tr>
 					<tr>
 						<td>40Gbits Ethernet</td>
 						<td>40GBASE-KR4</td>
-						<td>Released in June 2010, on 2014 it's the latest version of Ethernet.</td>
+						<td>Released in June 2010, is currently the latest version of Ethernet.</td>
 					</tr>
 				</table>
 
