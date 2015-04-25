@@ -53,9 +53,9 @@
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     left: 0px;
-    height: 56.2%;
+    height: 52.7%;
     width: 4%;
-    background-color: azure;
+    background-color: red;
     position: fixed;
     opacity: 0.3;
 }
@@ -64,9 +64,9 @@
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     right: 0px;
-    height: 60%;
+    height: 52.7%;
     width: 4%;
-    background-color: azure;
+    background-color: red;
     position: fixed;
     opacity: 0.3;
 }
