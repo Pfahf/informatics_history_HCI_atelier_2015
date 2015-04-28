@@ -196,10 +196,12 @@ img.left{
 
 a{                  /* Attributes of INTERNAL links*/                
     color: rgb(0, 140, 232);
+    text-decoration: none;
 }
 
 a:hover{
     color: rgb(0, 186, 232);
+    text-decoration: underline;
 }
 
 a:visited{
