@@ -196,16 +196,17 @@ img.left{
 
 a{                  /* Attributes of INTERNAL links*/                
     color: rgb(0, 140, 232);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover{
     color: rgb(0, 186, 232);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:visited{
-    color: rgb(46, 0, 120);
+    color: rgb(98, 19, 102);
+    text-decoration: underline;
 }
 
 a[href^="#"]{       /* Remove the underline to the sap numbers*/
