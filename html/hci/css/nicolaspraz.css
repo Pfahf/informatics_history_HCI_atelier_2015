@@ -1,1 +1,44 @@
-/* add your code here /*
+/* internal links */
+
+a.int-link: link{
+	color: #505050;
+	font-weight:bold;
+	}
+
+a.int-link: hover{
+	color: #505050;
+	text-decoration: underline;
+	font-weight:bold;
+	}
+
+a.int-link: visited{
+	color: #A0A0A0;
+	}
+	
+/* external links */
+
+a.ext-link link{
+	color: #3366FF;
+	font-weight:bold;
+	}
+	
+a.ext-link hover{
+	color: #3366FF;
+	font-weight:bold;
+	text-decoration: underline;
+	}
+	
+a.ext-link visited{
+	color: #33CCFF;
+	}
+	
+	
+	
+	
+
+
+
+
+	
+	
+	
