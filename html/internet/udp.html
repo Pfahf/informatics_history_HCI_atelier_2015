@@ -48,13 +48,13 @@
 
 					<li><b>UDP Message Encapsulation:</b> The higher-layer message is encapsulated into the Data field of a UDP message. The headers of the UDP message are filled in, including the Source Port of the application that sent the data to UDP, and the Destination Port of the intended recipient. The checksum value may also be calculated.</li>
 
-					<li><b>Transfer Message To <a href="tcp_ip.html">IP</a>:</b> The UDP message is passed to <a href="tcp_ip.html">IP</a> for transmission.</li>
+					<li><b>Transfer Message To IP:</b> The UDP message is passed to IP for transmission.</li>
 				</ol>
 
 				<h2>Format</h2>
 
 				<p>
-				The format of a UPD header is a lot smaller than the <a href="tcp_ip.html">TCP</a> headers, that is only eight bytes against 20 bytes or more for <a href="tcp_ip.html">TCP</a> headers. A UDP header is divided in four part of 2 bytes each:
+				The format of a UPD header is a lot smaller than the TCP headers, that is only eight bytes against 20 bytes or more for TCP headers. A UDP header is divided in four part of 2 bytes each:
 				</p>
 
 				<table>
