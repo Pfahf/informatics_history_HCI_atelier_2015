@@ -1,1 +1,20 @@
-/* add your code here /*
+/* add your code here */
+
+a:link {
+	color: #666666;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a:active {
+	/*color: #FF0000;*/
+	text-decoration: none;
+};
+
+a:visited {
+    color: #FF0000;
+}
