@@ -1,44 +1,38 @@
 /* internal links */
 
-a.int-link: link{
+.int:link{
 	color: #505050;
 	font-weight:bold;
-	}
+	text-decoration: none;
+}
 
-a.int-link: hover{
+.int:hover {
 	color: #505050;
 	text-decoration: underline;
 	font-weight:bold;
-	}
+}
 
-a.int-link: visited{
+.int:visited {
 	color: #A0A0A0;
-	}
+	text-decoration: none;
+}
 	
 /* external links */
 
-a.ext-link link{
-	color: #3366FF;
+.ext:link {
+	color: #3333CC;
 	font-weight:bold;
-	}
+	text-decoration: none;
+}
 	
-a.ext-link hover{
-	color: #3366FF;
+.ext:hover {
+	color: #3333CC;
 	font-weight:bold;
 	text-decoration: underline;
-	}
+}
 	
-a.ext-link visited{
-	color: #33CCFF;
-	}
-	
-	
-	
-	
-
-
-
-
-	
-	
+.ext:visited {
+	color: blue;
+	text-decoration: none;
+}
 	
