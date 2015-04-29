@@ -10,7 +10,8 @@
     height: 500px;
      background-image: url("hardware.jpg");
      background-size: 550%;
- }
+
+}
 
 #Software{
     display: inline-block;
@@ -38,4 +39,16 @@
     background-image: url("games.jpg") ;
     background-position: center;
     background-size: 360%;
+}
+
+#HCI{
+    display: inline-block;
+
+    width: 200px;
+    height: 500px;
+    background-image: url("hci.jpg") ;
+    background-position: center;
+
+    background-size: 340%;
+
 }
