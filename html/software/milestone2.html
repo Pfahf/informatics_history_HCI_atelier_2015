@@ -20,10 +20,22 @@
         a[href^="index.html"]:hover{
             color: magenta;
         }
-
+        
         a[href^="https://en.wikipedia.org/wiki/Charles_Babbage"]:visited{
             color: cyan;
         }
+
+        
+        a:link{
+        color: blue;
+        }
+        
+        a[href^="https://"]:not([href*="index.html"]):hover{
+        color: yellow
+        }
+        a[href^="http://"]:not([href*="index.html"]):hover{
+        color:yellow
+        }        
 
         /* This is an intelligent comment */
         a.murphy {
@@ -33,7 +45,7 @@
         /* I am not supposed to do this (just for fun)...
         instead of doing Java... */
         a.murphy:hover{
-            color: transparent;
+            color: magenta;
         }
         /* Just for the sake of doing something rather than the opposite...*/
         a.murphy:visited{
