@@ -1,9 +1,10 @@
 /* add your code here */
 
 a:link {
-	color: #666666;
-	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
 }
+
 
 a:hover {
 	font-weight: bold;
@@ -11,10 +12,11 @@ a:hover {
 }
 
 a:active {
-	/*color: #FF0000;*/
+	font-weight: bold;
 	text-decoration: none;
 };
 
 a:visited {
     color: #FF0000;
+    font-weight: bold;
 }
