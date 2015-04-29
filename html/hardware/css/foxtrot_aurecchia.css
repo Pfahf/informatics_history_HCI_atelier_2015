@@ -1,0 +1,33 @@
+.image {
+   width: 300px;
+   height: 200px;
+   margin: 10px;
+   float: left;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+}
+.image .caption {
+   position: absolute;
+   overflow: hidden;
+}
+
+.image-effect .caption {
+   background-color: rgba(0, 0, 0, 0.7);
+   top: 200px;
+   transition: all 0.3s ease-out 0.5s;
+}
+
+.image-effect:hover .caption {
+   top: 120px;
+   transition-delay: 0s;
+}
+
+.image-effect:hover p {
+   transform: translateY(0px);
+   transition-delay: 0.2s;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.8);
+}
