@@ -1,0 +1,54 @@
+
+
+.selector{
+    display: inline-block;
+
+}
+#Hardware{
+    display: inline-block;
+    width: 200px;
+    height: 500px;
+     background-image: url("hardware.jpg");
+     background-size: 550%;
+
+}
+
+#Software{
+    display: inline-block;
+    width: 200px;
+    height: 500px;
+    background-image: url("software.jpg") ;
+    background-size: 800%;
+}
+
+#Internet{
+    display: inline-block;
+    width: 200px;
+    height: 500px;
+    background-image: url("internet.jpg") ;
+    background-size: 400%;
+
+}
+
+
+#Games{
+    display: inline-block;
+
+    width: 200px;
+    height: 500px;
+    background-image: url("games.jpg") ;
+    background-position: center;
+    background-size: 360%;
+}
+
+#HCI{
+    display: inline-block;
+
+    width: 200px;
+    height: 500px;
+    background-image: url("hci.jpg") ;
+    background-position: center;
+
+    background-size: 340%;
+
+}
