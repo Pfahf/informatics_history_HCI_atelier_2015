@@ -1,0 +1,24 @@
+						<li>[Visited on 01/11/2014] <a href="http://cm.bell-labs.com/who/dmr/chist.html"> The Development of the C Language</a></li>
+						<li>[Visited on 02/11/2014] <a href="http://www.le.ac.uk/users/rjm1/cotter/page_06.htm"> A Brief History of C</a></li>
+						<li>[Visited on 02/11/2014] <a id="the_c_programming_language" href="http://en.wikipedia.org/wiki/The_C_Programming_Language"> The C Programming Language</a></li>
+						<li>[Visited on 02/11/2014] <a href="http://groups.engin.umd.umich.edu/CIS/course.des/cis400/pascal/pascal.html"> The Pascal Language Page</a></li>
+						<li>[Visited on 02/11/2014] <a href="http://www.yourdictionary.com/smalltalk">Smalltalk - Computer Definition</a></li>
+						<li>[Visited on 02/11/2014] <a href="http://groups.engin.umd.umich.edu/CIS/course.des/cis400/prolog/prolog.html"> Prolog Programming Language</a></li>
+						<li>[Visited on 02/11/2014] <a href="http://www.britannica.com/EBchecked/topic/478660/PROLOG"> PROLOG</a></li>
+						<li>[Visited on 02/11/2014] <a href="https://web.stanford.edu/dept/itss/docs/oracle/10g/server.101/b10759/intro001.htm"> History of SQL</a></li>
+						<li>[Visited on 02/11/2014] <a href="http://cs.brown.edu/~adf/programming_languages.html"> A History of Computer Programming Languages</a></li>
+
+						<li>[Visited on 02/11/2014] <a href="http://www.stroustrup.com/3rd.html"> The C++ Programming Language (3rd Edition)</a></li>
+						<li>[Visited on 02/11/2014] <a href="http://programmers.stackexchange.com/questions/105313/how-could-the-first-c-compiler-be-written-in-c"> How could the first C++ compiler be written in C++?</a></li>
+						<li>[Visited on 02/11/2014] <a href="http://www.stroustrup.com/bs_faq.html#bootstrapping"> Which language did you use to write C++?</a></li>
+						<li>[Visited on 02/11/2014] <a href="http://stackoverflow.com/questions/5205491/whats-this-stl-vs-c-standard-library-fight-all-about"> What's this STL vs. "C++ Standard Library" fight all about?</a></li>
+						<li>[Visited on 02/11/2014] <a href="https://www.youtube.com/watch?v=JBjjnqG0BP8">Why I Created C++</a></li>
+						
+						<li>[Visited on 02/11/2014] <a href="http://www.mathworks.co.uk/company/newsletters/articles/the-origins-of-matlab.html"> The Origins of MATLAB</a></li>
+						<li>[Visited on 02/11/2014] <a href="https://www.youtube.com/watch?v=ju1IMxGSuNE">Larry Wall: Why Perl Is Like a Human Language</a></li>
+						<li>[Visited on 02/11/2014] <a href="https://www.python.org/doc/essays/foreword/"> Foreword for "Programming Python" (1st ed.)</a></li>
+						<li>[Visited on 02/11/2014] <a href="http://www.w3.org/People/Raggett/book4/ch02.html"> A history of HTML</a></li>
+						<li>[Visited on 03/11/2014] <a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html"> TIOBE Index for October 2014</a></li>
+						<li>[Visited on 03/11/2014] <a href="http://web.archive.org/web/20050420081440/http://java.sun.com/features/1998/05/birthday.html"> JAVA TECHNOLOGY: THE EARLY YEARS</a></li>
+						<li>[Visited on 05/11/2014] <a href="https://www.youtube.com/watch?v=0VPvQ_dXMhw"> Free Pascal Program Tutorial 1 - Getting Started - Lazarus </a></li>
+						<li>[Visited on 04/11/2014] <a href="https://www.youtube.com/watch?v=pRsGM7H91VY"> Writing a MATLAB Program</a></li>
