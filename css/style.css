@@ -445,7 +445,7 @@ width: 100%;
 }
 
 
-@media all and (max-width: 900px){
+@media all and (max-width: 1100px){
 	.row{ 
 		-webkit-flex-direction: column; 
  		 flex-direction: column; 
@@ -465,11 +465,13 @@ width: 100%;
    overflow: hidden;
    background-color: rgba(0, 0, 0, 0.7);
    top: 100%;
+   -webkit-transition: all 0.3s ease-out 0.5s;
    transition: all 0.3s ease-out 0.5s;
 }
 
 .image:hover .caption {
    top: 73%;
+   -webkit-transition-delay: 0s;
    transition-delay: 0s;
 }
 .image div{
