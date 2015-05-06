@@ -349,20 +349,16 @@ footer address{
 
 
 .externalLinks{
-	display: flex;
-	flex-direction: column;
 	margin-top: 100px;
 	font-style: italic;
 	font-size: 10pt;
-	outline: dotted;
-	outline-width: 2px;
-	outline-color: #66CCFF;
     
 }
 
 .externalLinks a{
 	color: #101010;
-    text-decoration: none;    
+    text-decoration: none;
+    
 }
 
 
@@ -384,17 +380,4 @@ footer address{
 #timeline-embed div.title{
 	line-height: 13px;
 	font-size: 13px;
-}
-
-/* Irene Css suggestions*/
-externalLinks.hide {
-	display: none;
-}
-.hide, .externalLinks:hover .show{
-	display: none;
-}
-.externalLinks:hover .hide{
-	display: flex;
-	flex-direction: column;
-
 }
