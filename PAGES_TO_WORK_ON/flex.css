@@ -10,9 +10,10 @@ body {
     min-height: 100vh;
     display: -webkit-flex;
     display:         flex;
-    background-color: #E5F9FF;   
+    background-color: #D1DCE8;   
     padding-top: 100px;
     padding-bottom: 30px;
+    
 }
 
 
@@ -21,7 +22,8 @@ body {
     height: 40px;
     display: -webkit-flex;
     display:         flex;
-    background-color: #ddd;
+    background: linear-gradient(#F3F5FF, #D2D1E8); 
+    box-shadow: 3px 3px 5px 2px #aaaaaa; 
     position: fixed;
     margin-bottom: 70px;
     top: 0;
@@ -32,7 +34,8 @@ body {
     height: 40px;
     display: -webkit-flex;
     display:         flex;
-    background-color: #ddd;
+    background: linear-gradient(#F3F5FF, #D2D1E8); 
+    box-shadow: 3px 3px 5px 2px #aaaaaa; 
 
 
 }
@@ -45,19 +48,22 @@ body {
 
 #center, #navbar_center, #footer_center {
     display: flex;
-    flex: 8;
+    flex: 4;
 
 }
 
 #navbar_center {
-    background-color: #eee;
-
     align-items: center;
 }
 
 #center {
-    background-color: white;
+    background: white;
+    border-radius: 10px;
+    border-style: ridge;
+    box-shadow: 2px 5px 10px #AAA;
     min-height: 100%;
+    text-align: justify;
+    padding: 40px 80px;
 }
 
 
@@ -67,8 +73,8 @@ body {
     flex: 1;
     text-align: center;
 
-}
 
+}
 
 #right, #navbar_right, #footer_right {
 
@@ -77,6 +83,14 @@ body {
 }
 
 a {
+    text-decoration: none;
+    color: black;
+	transition-duration: 0.3s;
+}
 
-	
+a:hover {
+    color: white;
+    transition-duration: 0.3s;
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 1);
+    
 }
