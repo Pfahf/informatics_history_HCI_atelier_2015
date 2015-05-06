@@ -72,14 +72,55 @@ h1, h2 {
     text-align: left;
 }
 
+/* Start Calzam work on table */
+
 #content table {
-    border-collapse: collapse;
+    border-collapse: 
+    collapse; border-spacing: 0;
 }
 
 #content table, td, th {
 	padding: 5px;
-    border: 1px solid black;
 }
+
+#content td, th {
+	border: 1px solid transparent;
+	transition: all 0.3s;
+	text-align: center;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+	
+#content th{
+	font-weight: bold;
+	background-color: #DFDFDF;
+}
+
+#content td:first-child {
+	border-left: none;
+}
+#content th:first-child {
+	border-left: none;
+}
+
+#content td:last-child {
+	border-right: none;
+}
+#content th:last-child {
+	border-right: none;
+}
+tr:nth-child(even) td { 
+	background: #F1F1F1; 
+}   
+
+tr:nth-child(odd) td {
+	background: #FEFEFE; 
+} 
+tr td:hover { 
+background: #666; color: #FFF; 
+}
+	
+/* End Calzam work */
 
 .selected{
 
