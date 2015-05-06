@@ -156,19 +156,19 @@ img.left{
 }
 
 .caption{
-    width: 95%;
+    width: 98%;
     bottom: 5px;
-    padding: 2.5%;
-    left: 0px;  
+    padding: 0% 1.5% 0% 3%;
     color: white;
     background-color: rgba(130,130,130,0.9);
     text-align: center;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    border-radius: 3px;
 
 }
+
+
 
 .caption sup{
 	color: white;
@@ -446,9 +446,33 @@ width: 100%;
 
 @media all and (max-width: 900px){
 	.row{ 
-		-webkit-flex-direction: column; !important
- 		 flex-direction: column; !important
+		-webkit-flex-direction: column; 
+ 		 flex-direction: column; 
 
 	}
 
-	}
+}
+
+
+.image{
+    overflow: hidden;
+    position: relative;
+}
+
+.image .caption {
+   position: absolute;
+   overflow: hidden;
+   background-color: rgba(0, 0, 0, 0.7);
+   top: 100%;
+   transition: all 0.3s ease-out 0.5s;
+}
+
+.image:hover .caption {
+   top: 73%;
+   transition-delay: 0s;
+}
+.image div{
+	margin: 0;
+    padding: 6px;
+}
+
