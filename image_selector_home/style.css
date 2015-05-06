@@ -1,87 +1,93 @@
 
 
-.selector{
-    display: inline-block;
+.image_container{
+
+    display: flex;
+    flex-direction: row;
 
 }
+
+.img {
+    text-decoration: none;
+    color: black;
+    flex-basis: 200px;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+
+}
+
 #Hardware{
-    display: inline-block;
-    width: 200px;
-    height: 500px;
+
      background-image: url("hardware.jpg");
-     background-size: 550%;
 
 }
-#Hardware:hover{
-    width: 900px;
-    height: 500px;
-    position: fixed;
-    background-size: 100%;
-}
 
-#Software{
-    display: inline-block;
-    width: 200px;
-    height: 500px;
-    background-image: url("software.jpg") ;
-    background-size: 800%;
-}
+#Software {
 
-#Software:hover{
-    width: 900px;
-    height: 500px;
-    position: fixed;
-    left: 0;
-    background-size: 100%;
+    background-image: url("software.jpg");
 }
 
 #Internet{
-    display: inline-block;
-    width: 200px;
-    height: 500px;
+
     background-image: url("internet.jpg") ;
-    background-size: 400%;
+
+}
+
+
+#Games{
+
+    background-image: url("games.jpg") ;
+
+}
+
+#HCI {
+
+    background-image: url("hci.jpg");
+
+}
+
+
+@media all and (max-width: 600px){
+
+    .image_container{
+        flex-direction: column;
+    }
+    .img{
+        height: 20px;
+        flex-basis: 100px;
+    }
+}
+
+#Hardware:hover{
+    opacity: 0.5;
+}
+
+#Software:hover{
+
+
+    opacity: 0.5;
+
+}
+
+#Games:hover{
+
+    opacity: 0.5;
+
 
 }
 
 #Internet:hover{
-    width: 900px;
-    height: 500px;
-    position: fixed;
-    left: 0;
-    background-size: 100%;
-}
 
-#Games{
-    display: inline-block;
+    opacity: 0.5;
 
-    width: 200px;
-    height: 500px;
-    background-image: url("games.jpg") ;
-    background-position: center;
-    background-size: 360%;
-}
-#Games:hover{
-    width: 900px;
-    height: 500px;
-    position: fixed;
-    left: 0;
-    background-size: 100%;
-}
-#HCI {
-    display: inline-block;
-    width: 200px;
-    height: 500px;
-    background-image: url("hci.jpg");
-
-    background-size: 340%;
 }
 
 #HCI:hover{
-    width: 900px;
-    height: 500px;
-    position: fixed;
-    left: 0;
-    top:0;
-    background-size: 100%;
+
+    opacity: 0.5;
+
 }
