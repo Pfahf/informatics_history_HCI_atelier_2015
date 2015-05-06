@@ -1,0 +1,63 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+    background: lightgrey;
+}
+
+#wrapper {
+	display: flex;
+	flex: auto;
+	flex-flow: column;
+	flex-basis: 100%;
+	min-height: 100%;
+    background: lightgrey;
+}
+
+#nav {
+	display: flex;
+	flex-flow: row;
+    background: grey;
+    justify-content: center;
+}
+
+#container {
+	display: flex;
+    background: lightgrey;
+	flex-flow: row wrap;
+    flex: 1 1 auto;
+}
+
+#footer {
+	display: flex;
+    background: grey;
+    justify-content: flex-start;
+}
+
+#content{
+	display: flex;
+    background: white;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2em;
+    flex: 1 1 auto;
+	flex-flow: column;
+}
+
+#content > #imgBox{
+	display: flex;
+	flex-flow: row;
+    border: 2px solid black;
+    justify-content: space-between;
+    
+}
+
+#content > p{
+}
+
+#imgBox > a.sectionLink {
+    flex-grow: 1;
+    border: 1px solid black;
+}
