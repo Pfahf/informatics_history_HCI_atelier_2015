@@ -330,14 +330,33 @@ footer address{
 	background-size: cover;
 }
 
+/*Suggestions*/
+#years {
+    display: flex;
+    flex-direction: row wrap;
+    padding: 5px; 
+    width: 100%;
+}
+
+.items {
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+    width: 100%;
+}
 
 /*External links*/
 
 
 .externalLinks{
+	display: flex;
+	flex-direction: column;
 	margin-top: 100px;
 	font-style: italic;
 	font-size: 10pt;
+	outline: dotted;
+	outline-width: 2px;
+	outline-color: rgba(130,130,130,0.9);
     
 }
 
@@ -368,6 +387,22 @@ footer address{
 	font-size: 13px;
 }
 
+/* Irene Css suggestions*/
+externalLinks.hide {
+	display: none;
+}
+.hide, .externalLinks:hover .show{
+	display: none;
+    transition: width 2s linear 1s;
+}
+.externalLinks:hover .hide{
+	display: flex;
+	flex-direction: column;
+    transition: width 2s linear 1s;
+
+}
+
+/* Andrea Css suggestions*/
 .flex-container {
   padding: 0;
   margin: 0;
