@@ -213,7 +213,7 @@ a[href^="#"]{       /* Remove the underline to the sap numbers*/
 }
 
 footer {
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	width: 100%;
 	height: 55px;
