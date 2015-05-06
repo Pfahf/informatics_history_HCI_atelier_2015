@@ -62,7 +62,7 @@ html, body{
  text-align: justify;
 }
 
-
+/*
 .subP {
     padding-left: 20px;
     
@@ -269,21 +269,9 @@ footer address{
 	background-color: rgb(230,230,230);
 	color: black;
 }
+*/
 
-/*HOMEPAGE PAGE*/
-#grid{
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	margin-left:  auto;
-	margin-right:  auto;
-}
-
-#grid div{
-	width: 98%;
-	margin-left: 3.5%;
-}
-
+/*
 #grid div div{
 	width: 45%;
 	height: 50%;
@@ -329,8 +317,90 @@ footer address{
 	background: url("img/games.jpg") no-repeat 50% 50%;
 	background-size: cover;
 }
+*/
 
+#grid {
+	width: 100%;
+	height: 500px;
+}
 
+#grid > #topRow {
+	width: 100%;
+	height: 250px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#grid > #bottomRow {
+	width: 100%;
+	height: 250px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#grid > #topRow > a {
+	width: 50%;
+	height: auto;
+	min-width: 400px;
+	flex-grow: 1;
+	background: #ccc;
+	border-radius: 10px;
+	display: flex;
+	text-decoration: none;
+}
+
+#grid > #bottomRow > a{
+	width: auto;
+	min-width: 400px;
+	height:auto;
+	flex-grow: 1;
+	background: #ccc;
+	border-radius: 10px;
+	display: flex;
+	text-decoration: none;
+}
+
+#grid > #topRow > a > #hardware{
+	flex-basis: 100%;
+	background: url("img/hardware.jpg") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+#grid > #topRow > a > #software{
+	flex-basis: 100%;
+	background: url("img/software.jpg") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+#grid > #bottomRow > a > #internet{
+	flex-basis: 100%;
+	background: url("img/internet.jpg") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+#grid > #bottomRow > a > #games{
+	flex-basis: 100%;
+	background: url("img/games.jpg") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+#grid > #topRow > div{
+	width: 100%;
+	height: 100%;
+}
+
+#grid > #bottomRow > div{
+	width: 100%;
+	height: 100%;
+}
+
+#grid p{
+	color: rgb(242, 89, 0);
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+}
 /*External links*/
 
 
@@ -349,7 +419,7 @@ footer address{
 
 
 /* Time line */
-
+/*
 #timeline-embed h2.date{
 	visibility: hidden;
 }
@@ -367,3 +437,4 @@ footer address{
 	line-height: 13px;
 	font-size: 13px;
 }
+*/
