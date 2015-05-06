@@ -82,7 +82,7 @@ html, body {
 .img {
     text-decoration: none;
     color: black;
-    flex-basis: 200px;
+    flex: 1 1 auto;
     height: 300px;
     background-size: cover;
     background-position: center center;
