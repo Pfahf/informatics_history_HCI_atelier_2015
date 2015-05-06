@@ -1,8 +1,0 @@
-Links for the Ada programming language
-
-<li>[visited on 06.11.2014] <a id="1" href="http://de.wikipedia.org/wiki/Jean_Ichbiah">Jean Ichbiah</a></li>
-<li>[visited on 06.11.2014] <a id="2" href="http://en.wikipedia.org/wiki/United_States_Department_of_Defense">United States Department of Defense</a></li>
-<li>[visited on 06.11.2014] <a id="4" href="http://en.wikipedia.org/wiki/Ada_Lovelace">Ada Lovelace</a></li>
-<li>[visited on 06.11.2014] <a id="5" href="http://en.wikipedia.org/wiki/Charles_Babbage">Charles Babbage</a></li>
-<li>[visited on 06.11.2014] <a id="6" href="http://www.adacore.com/adaanswers/about/ada">AdaCore</a></li>
-<li>[visited on 06.11.2014] <a id="7" href="http://people.cs.kuleuven.be/~dirk.craeynest/ada-belgium/pictures/ada-strong-1120-transparent.png">Ada logo</a></li>
