@@ -239,6 +239,7 @@ img.left{
 a{                  /* Attributes of INTERNAL links*/                
     color: rgb(0, 140, 232);
     text-decoration: underline;
+<<<<<<< HEAD
 }
 
 a:hover{
@@ -246,6 +247,15 @@ a:hover{
     text-decoration: none;
 }
 
+=======
+}
+
+a:hover{
+    color: rgb(0, 186, 232);
+    text-decoration: none;
+}
+
+>>>>>>> VincenzoFerme/gh-pages
 a:visited{
     color: rgb(98, 19, 102);
     text-decoration: underline;
@@ -325,53 +335,6 @@ footer address{
 }
 */
 
-/*
-#grid div div{
-	width: 45%;
-	height: 50%;
-	height: 300px;
-	position: relative;
-	overflow: hidden;
-}
-
-#grid div div{
-	float: left;
-}
-
-#grid div div p{
-	position: absolute;
-	bottom: 0;
-	left: -25px;
-	background-color: rgba(0,0,0,0.7);
-	width: 100%;
-	padding: 25px;
-	margin: 0;
-	font-size: 18pt;
-}
-
-#grid #software, #grid #hardware, #grid #internet, #grid #games{
-	background-color: rgba(0,0,0,0.8);
-	color: white;
-	margin: 10px;
-}
-
-#grid #software{
-	background: url("img/software.jpg") no-repeat 50% 50%;
-	background-size: cover;
-}
-#grid #hardware{
-	background: url("img/hardware.jpg") no-repeat 50% 50%;
-	background-size: cover;
-}
-#grid #internet{
-	background: url("img/internet.jpg") no-repeat 50% 50%;
-	background-size: cover;
-}
-#grid #games{
-	background: url("img/games.jpg") no-repeat 50% 50%;
-	background-size: cover;
-}
-*/
 
 #grid {
 	width: 100%;
@@ -471,28 +434,7 @@ footer address{
 }
 
 
-/* Time line */
-/*
-#timeline-embed h2.date{
-	visibility: hidden;
-}
 
-#timeline-embed a:hover{
-	color: #000;
-	text-decoration: none;
-}
-
- #timeline-embed div.date{
- 	display: none;
- }
-
-#timeline-embed div.title{
-	line-height: 13px;
-	font-size: 13px;
-}
-<<<<<<< HEAD
-*/
-=======
 
 .gridContainer {
   display: -webkit-box;
@@ -592,4 +534,3 @@ width: 100%;
     padding: 6px;
 }
 
->>>>>>> VincenzoFerme/gh-pages
