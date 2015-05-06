@@ -62,7 +62,7 @@ html, body{
  text-align: justify;
 }
 
-
+/*
 .subP {
     padding-left: 20px;
     
@@ -227,7 +227,7 @@ img.left{
 
 #content{
 	width: 77%;
-	padding: 10px 2%;
+	padding: 30px 2%;
 	background-color: rgba(255,255,255,0.7);
 	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.4);
 	margin: 0 auto;
@@ -239,6 +239,7 @@ img.left{
 a{                  /* Attributes of INTERNAL links*/                
     color: rgb(0, 140, 232);
     text-decoration: underline;
+<<<<<<< HEAD
 }
 
 a:hover{
@@ -246,6 +247,15 @@ a:hover{
     text-decoration: none;
 }
 
+=======
+}
+
+a:hover{
+    color: rgb(0, 186, 232);
+    text-decoration: none;
+}
+
+>>>>>>> VincenzoFerme/gh-pages
 a:visited{
     color: rgb(98, 19, 102);
     text-decoration: underline;
@@ -267,7 +277,7 @@ sup{        /*Remove underline from the sup numbers*/
 }
 
 footer {
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	width: 100%;
 	height: 55px;
@@ -323,73 +333,95 @@ footer address{
 	background-color: rgb(230,230,230);
 	color: black;
 }
+*/
 
-/*HOMEPAGE PAGE*/
-#grid{
+
+#grid {
 	width: 100%;
-	height: 100%;
-	text-align: center;
-	margin-left:  auto;
-	margin-right:  auto;
+	height: 500px;
 }
 
-#grid div{
-	width: 98%;
-	margin-left: 3.5%;
-}
-
-#grid div div{
-	width: 45%;
-	height: 50%;
-	height: 300px;
-	position: relative;
-	overflow: hidden;
-}
-
-#grid div div{
-	float: left;
-}
-
-#grid div div p{
-	position: absolute;
-	bottom: 0;
-	left: -25px;
-	background-color: rgba(0,0,0,0.7);
+#grid > #topRow {
 	width: 100%;
-	padding: 25px;
-	margin: 0;
-	font-size: 18pt;
+	height: 250px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
-#grid #software, #grid #hardware, #grid #internet, #grid #games{
-	background-color: rgba(0,0,0,0.8);
-	color: white;
-	margin: 10px;
+#grid > #bottomRow {
+	width: 100%;
+	height: 250px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
-#grid #software{
-	background: url("img/software.jpg") no-repeat 50% 50%;
-	background-size: cover;
+#grid > #topRow > a {
+	width: 50%;
+	height: auto;
+	min-width: 400px;
+	flex-grow: 1;
+	background: #ccc;
+	border-radius: 10px;
+	display: flex;
+	text-decoration: none;
 }
-#grid #hardware{
+
+#grid > #bottomRow > a{
+	width: auto;
+	min-width: 400px;
+	height:auto;
+	flex-grow: 1;
+	background: #ccc;
+	border-radius: 10px;
+	display: flex;
+	text-decoration: none;
+}
+
+#grid > #topRow > a > #hardware{
+	flex-basis: 100%;
 	background: url("img/hardware.jpg") no-repeat 50% 50%;
 	background-size: cover;
 }
-#grid #internet{
+
+#grid > #topRow > a > #software{
+	flex-basis: 100%;
+	background: url("img/software.jpg") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+#grid > #bottomRow > a > #internet{
+	flex-basis: 100%;
 	background: url("img/internet.jpg") no-repeat 50% 50%;
 	background-size: cover;
 }
-#grid #games{
+
+#grid > #bottomRow > a > #games{
+	flex-basis: 100%;
 	background: url("img/games.jpg") no-repeat 50% 50%;
 	background-size: cover;
 }
 
+#grid > #topRow > div{
+	width: 100%;
+	height: 100%;
+}
 
+#grid > #bottomRow > div{
+	width: 100%;
+	height: 100%;
+}
+
+#grid p{
+	color: rgb(242, 89, 0);
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+}
 /*External links*/
 
 
 .externalLinks{
-	margin-top: 100px;
 	font-style: italic;
 	font-size: 10pt;
     
@@ -402,25 +434,7 @@ footer address{
 }
 
 
-/* Time line */
 
-#timeline-embed h2.date{
-	visibility: hidden;
-}
-
-#timeline-embed a:hover{
-	color: #000;
-	text-decoration: none;
-}
-
- #timeline-embed div.date{
- 	display: none;
- }
-
-#timeline-embed div.title{
-	line-height: 13px;
-	font-size: 13px;
-}
 
 .gridContainer {
   display: -webkit-box;
