@@ -51,6 +51,7 @@ html, body {
 
 #footer > address {
     margin: 0.7em;
+    color: white;
     
 }
 
@@ -68,17 +69,97 @@ html, body {
 }
 
 #content > #imgBox{
-	display: flex;
-	flex-flow: row;
-    border: 2px solid black;
-    justify-content: space-between;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     
 }
 
 #content > p{
 }
 
-#imgBox > a.sectionLink {
-    flex-grow: 1;
-    border: 1px solid black;
+.img {
+    text-decoration: none;
+    color: black;
+    flex-basis: 200px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+
+}
+
+#Hardware{
+
+     background-image: url("hardware.jpg");
+
+}
+
+#Software {
+
+    background-image: url("software.jpg");
+}
+
+#Internet{
+
+    background-image: url("internet.jpg") ;
+
+}
+
+
+#Games{
+
+    background-image: url("games.jpg") ;
+
+}
+
+#HCI {
+
+    background-image: url("hci.jpg");
+
+}
+
+
+@media all and (max-width: 600px){
+
+    #content > #imgBox{
+        flex-direction: column;
+    }
+    .img{
+        height: 20px;
+        flex-basis: 100px;
+    }
+}
+
+#Hardware:hover{
+    opacity: 0.5;
+}
+
+#Software:hover{
+
+
+    opacity: 0.5;
+
+}
+
+#Games:hover{
+
+    opacity: 0.5;
+
+
+}
+
+#Internet:hover{
+
+    opacity: 0.5;
+
+}
+
+#HCI:hover{
+
+    opacity: 0.5;
+
 }
