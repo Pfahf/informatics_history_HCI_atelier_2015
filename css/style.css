@@ -208,8 +208,9 @@ a:visited{
     color: rgb(98, 19, 102);
     text-decoration: underline;
 }
-
-a[href^="#"]{       /* Remove the underline to the sap numbers*/
+/*a[href^="#"]*/
+sup{        /*Remove underline from the sup numbers*/
+    display:inline-block;
     text-decoration: none;
     color: black;
     cursor: pointer;
