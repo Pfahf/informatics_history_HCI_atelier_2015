@@ -57,8 +57,8 @@ html, body{
  min-height: 100%;
  width: 100%;
  height: 100%;
- min-width: 700px;
- background-color: rgb(230,230,230);
+/* min-width: 700px;
+*/ background-color: rgb(230,230,230);
  text-align: justify;
 }
 
@@ -72,14 +72,55 @@ h1, h2 {
     text-align: left;
 }
 
+/* Start Calzam work on table */
+
 #content table {
-    border-collapse: collapse;
+    border-collapse: 
+    collapse; border-spacing: 0;
 }
 
 #content table, td, th {
 	padding: 5px;
-    border: 1px solid black;
 }
+
+#content td, th {
+	border: 1px solid transparent;
+	transition: all 0.3s;
+	text-align: center;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+	
+#content th{
+	font-weight: bold;
+	background-color: #DFDFDF;
+}
+
+#content td:first-child {
+	border-left: none;
+}
+#content th:first-child {
+	border-left: none;
+}
+
+#content td:last-child {
+	border-right: none;
+}
+#content th:last-child {
+	border-right: none;
+}
+tr:nth-child(even) td { 
+	background: #F1F1F1; 
+}   
+
+tr:nth-child(odd) td {
+	background: #FEFEFE; 
+} 
+tr td:hover { 
+background: #666; color: #FFF; 
+}
+	
+/* End Calzam work */
 
 .selected{
 
@@ -156,18 +197,19 @@ img.left{
 }
 
 .caption{
-    position: absolute;
-    width: 95%;
+    width: 98%;
     bottom: 5px;
-    padding: 2.5%;
-    left: 0px;  
+    padding: 0% 1.5% 0% 3%;
     color: white;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(130,130,130,0.9);
     text-align: center;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+
 }
+
+
 
 .caption sup{
 	color: white;
@@ -195,10 +237,22 @@ img.left{
 
 
 a{                  /* Attributes of INTERNAL links*/                
-    color: rgb(130,130,130);
+    color: rgb(0, 140, 232);
+    text-decoration: underline;
 }
 
-a[href^="#"]{       /* Remove the underline to the sap numbers*/
+a:hover{
+    color: rgb(0, 186, 232);
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(98, 19, 102);
+    text-decoration: underline;
+}
+/*a[href^="#"]*/
+sup{        /*Remove underline from the sup numbers*/
+    display:inline-block;
     text-decoration: none;
     color: black;
     cursor: pointer;
@@ -436,4 +490,106 @@ footer address{
 	line-height: 13px;
 	font-size: 13px;
 }
+<<<<<<< HEAD
 */
+=======
+
+.gridContainer {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 77%;
+  padding: 10px 2%;
+  background-color: rgba(255,255,255,0.7);
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.4);
+}
+
+
+.row {
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex; 
+  	-webkit-flex-basis: 100%;
+  	flex-basis: 100%;
+  	-webkit-justify-content: space-between;
+  	justify-content: space-between;
+
+}
+.col-50 {
+	-webkit-flex-basis: 50%;
+  	flex-basis: 50%;
+  	margin: 0 5px 0 5px;
+}
+
+img{
+width: 100%;
+}
+
+.col-23 {
+	flex-grow: 2/3;
+	-webkit-flex-grow: 2/3;
+	-webkit-flex-basis: 66.66667%;
+  	flex-basis: 66.66667%;
+   	margin: 0 5px 0 5px;
+
+	
+}
+
+.col-13 {
+	flex-grow: 1/3;
+	-webkit-flex-grow: 1/3;
+	-webkit-flex-basis: 33.33333%;
+  	flex-basis: 33.33333%;
+  	margin: 0 5px 0 5px;
+
+}
+
+.col-full {
+	-webkit-flex-basis: 100%;
+	flex-basis: 100%;
+
+}
+
+
+@media all and (max-width: 1100px){
+	.row{ 
+		-webkit-flex-direction: column; 
+ 		 flex-direction: column; 
+
+	}
+
+}
+
+
+.image{
+    overflow: hidden;
+    position: relative;
+}
+
+.image .caption {
+   position: absolute;
+   overflow: hidden;
+   background-color: rgba(0, 0, 0, 0.7);
+   top: 100%;
+   -webkit-transition: all 0.3s ease-out 0.5s;
+   transition: all 0.3s ease-out 0.5s;
+}
+
+.image:hover .caption {
+   top: 73%;
+   -webkit-transition-delay: 0s;
+   transition-delay: 0s;
+}
+.image div{
+	margin: 0;
+    padding: 6px;
+}
+
+>>>>>>> VincenzoFerme/gh-pages
