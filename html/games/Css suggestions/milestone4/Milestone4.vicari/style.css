@@ -467,18 +467,16 @@ table {
     background-color: rgba(120,110,120,1);
   -webkit-transition: -webkit-transform 1s ease-in-out;
   -webkit-transform: rotate3d(1, 0, 0, 180deg);
-  
   -webkit-transform: translate(300px, 0px);
   transform:translate(550px, -100px) scale(0.6);
   transition: transform 1s ease-in-out;
-    
-    
   z-index: 1;
 }
 
 .p center{
     font-size: 34pt;
 }
+
 img{
     height: 100px;
     width: 150px;
