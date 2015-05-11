@@ -1,0 +1,73 @@
+
+/*CSS SUGGESTIONS TABLE ANDREA MILESTONE 4*/
+
+table{
+    margin-left: 100px;
+    margin-right: 120px;
+    padding-left: 100px;
+    padding-right: 1000px;
+}
+
+#content table{
+    border-bottom-width: thin;
+    color: black;
+    border-style:groove;
+    border-width: 1px;
+    height: auto;
+    width: auto;
+    font-size: 13pt;
+    display: block;
+    vertical-align: middle;
+    background-color: transparent;
+    -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;
+    position: relative;
+}
+
+#content table, td, th {
+	padding: 5px;
+}
+
+#content td, th, tr {
+	border: 1px solid transparent;
+	transition: all 1s;
+	text-align: center;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+#content table tr:hover{ 
+  background-color: tomato;
+  color: white;
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  -webkit-transform: rotate3d(1, 1, 1, 120deg);
+  transition: transform 1s ease-in-out;
+  transform: rotate3d(1, 0, 1, 360deg) scale(1.3);
+  z-index: 99999;
+}
+
+#content td, th {
+	transition: all 0.3s;
+	text-align: center;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+	
+#content th{
+	font-weight: bold;
+}
+
+#content td:first-child {
+	border-left: none;
+}
+#content th:first-child {
+	border-left: none;
+}
+
+#content td:last-child {
+	border-right: none;
+}
+#content th:last-child {
+	border-right: none;
+}
+/*END CSS SUGGESTIONS TABLE ANDREA MILESTONE 4*/
